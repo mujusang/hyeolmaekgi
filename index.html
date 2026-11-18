@@ -141,6 +141,62 @@
     margin:0 0 .35em;
   }
   blockquote p:last-child{margin-bottom:0;}
+  section.eps{
+    margin:30px 0 0;
+    padding:22px 0 4px;
+    border-top:1px solid var(--line);
+    border-bottom:1px solid var(--line);
+  }
+  section.eps h2{
+    font-family:var(--serif);
+    font-size:16px;
+    font-weight:600;
+    color:var(--gold);
+    letter-spacing:.06em;
+    margin:0 0 14px;
+    text-align:center;
+  }
+  section.eps ol{
+    list-style:none;
+    margin:0;
+    padding:0;
+  }
+  section.eps li{
+    border-top:1px solid rgba(229,219,196,.7);
+  }
+  section.eps li:first-child{border-top:0;}
+  section.eps a{
+    display:flex;
+    align-items:baseline;
+    gap:10px;
+    padding:11px 2px;
+    text-decoration:none;
+    color:var(--ink);
+    font-size:16px;
+    line-height:1.5;
+    word-break:keep-all;
+  }
+  section.eps a .no{
+    flex:0 0 auto;
+    font-family:var(--serif);
+    font-weight:600;
+    color:var(--gold);
+    font-size:15px;
+  }
+  section.eps a .ttl{flex:1 1 auto;}
+  section.eps a .pg{
+    flex:0 0 auto;
+    color:var(--muted);
+    font-size:12.5px;
+    white-space:nowrap;
+  }
+  section.eps .note{
+    margin:12px 0 2px;
+    text-align:center;
+    color:var(--muted);
+    font-size:13px;
+    letter-spacing:.02em;
+  }
   nav.actions{
     margin:34px 0 0;
     display:flex;
@@ -245,6 +301,18 @@
 
     <p>아미타TV 채널에서 구독과 알림 설정해 두시면 매일 아침 받아보실 수 있습니다.</p>
   </div>
+
+  <section class="eps">
+    <h2>지금까지 공개된 강독</h2>
+    <ol>
+      <li><a href="https://youtu.be/euoCdhB-png" target="_blank" rel="noopener"><span class="no">제1화</span><span class="ttl">중생의 혁명 이론</span><span class="pg">5~26쪽</span></a></li>
+      <li><a href="https://youtu.be/CDy5dp5tbBU" target="_blank" rel="noopener"><span class="no">제2화</span><span class="ttl">신수가 연기를 택한 이유, 대승의 세 가지 위대함</span><span class="pg">26~42쪽</span></a></li>
+      <li><a href="https://youtu.be/EzxSz5N6w2k" target="_blank" rel="noopener"><span class="no">제3화</span><span class="ttl">광과 탕, 마음의 본질과 현상</span><span class="pg">42~57쪽</span></a></li>
+      <li><a href="https://youtu.be/vx2ochh0BM0" target="_blank" rel="noopener"><span class="no">제4화</span><span class="ttl">육도와 감응의 길, 유마거사</span><span class="pg">57~73쪽</span></a></li>
+      <li><a href="https://youtu.be/oSROwkxG0VM" target="_blank" rel="noopener"><span class="no">제5화</span><span class="ttl">유마거사의 병문안과 불이법문, 윤회의 길</span><span class="pg">73~88쪽</span></a></li>
+    </ol>
+    <p class="note">매일 오전 6시, 한 편씩 이어집니다.</p>
+  </section>
 
   <nav class="actions">
     <a class="btn btn-primary" href="https://www.youtube.com/channel/UCVnNOyYBT5WLVnjjhbvBa6g?sub_confirmation=1" target="_blank" rel="noopener">아미타TV 채널 구독·알림</a>
